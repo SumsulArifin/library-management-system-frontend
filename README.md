@@ -7,7 +7,7 @@ Here’s what we can include for the **Library Management System Frontend**:
 
 ### 🚀 Live Demo
 
-🔗 [Library Management System Frontend](https://library-management-frontend-mu.vercel.app/)
+🔗 [Library Management System Frontend](https://library-management-system-frontend-azure-beta.vercel.app/)
 
 ---
 
