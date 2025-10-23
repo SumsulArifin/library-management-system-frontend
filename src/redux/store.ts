@@ -1,14 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { bookApi } from "./api/bookApi";
+import { baseApi } from "./api/baseApi";
 
 export const store = configureStore({
   reducer: {
-    [bookApi.reducerPath]: bookApi.reducer,
+    [baseApi.reducerPath]: baseApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(bookApi.middleware),
+    getDefaultMiddleware().concat(baseApi.middleware),
 });
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
-export type AppStore = typeof store;

@@ -47,7 +47,7 @@ The frontend is connected to the **backend REST APIs**:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SumsulArifin/library-management-frontend
+git clone https://github.com/SumsulArifin/library-management-system-frontend.git
 cd library-management-system-frontend
 ```
 
